@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <title>Tetris Simple</title>
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="tetris-game" class="container">
+        <div id="game-grid" class="grid game-grid"></div>
+        <div class="panel">
+            <div id="game-details">
+                <div id="score">
+                    <h4>Score:<span>0</span></h4>
+                </div>
+                <div id="next">
+                    <h4>Up next:</h4>
+                    <div id="up-next" class="grid mini-grid"></div>
+                </div>
+            </div>
+            <div id="control">
+                <button id="pause-btn">Play/Pause</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

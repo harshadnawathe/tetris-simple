@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    width: 350px;
+    margin: auto;
+}
+
+.panel {
+    margin: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game-grid {
+    width: 200px;
+}
+
+.mini-grid {
+    width: 80px;
+    padding-bottom: 10px;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+}
+
+.empty {
+    background-color: aliceblue;
+}
+
+.filled0 {
+    background-color: red;
+}
+
+.filled1 {
+    background-color: green;
+}
+
+.filled2 {
+    background-color: cyan;
+}
+
+.filled3 {
+    background-color: purple;
+}
+
+.filled4 {
+    background-color: blueviolet;
+}
+
+.filled5 {
+    background-color: brown;
+}
+
+.filled6 {
+    background-color: yellow;
+}
+
