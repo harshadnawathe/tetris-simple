@@ -284,6 +284,7 @@ function Game({width, height}) {
                 for (let c = 0; c < width; c++) {
                     grid.append(`<div class="cell ${getCellClass(state[r][c])}"></div>`)
                 }
+                grid.append('<br/>')
             }
         }
 
@@ -383,6 +384,7 @@ function TetrominoGenerator() {
                         grid.append(`<div class="cell empty"></div>`)
                     }
                 }
+                grid.append('<br/>')
             }
         }
     }
